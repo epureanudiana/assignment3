@@ -39,5 +39,5 @@ urlpatterns = [
     url(r'^register/success/$', register_success, name='register_success'),
     url(r'^accounts/login/$',login, name='login'),
     url(r'^logout/$', logout_page, name='logout_page'),
-    url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
+    #url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
 ]
